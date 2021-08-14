@@ -17,6 +17,10 @@ body {
   font-family: $project-font, "Arial", sans-serif;
   font-size: $font-size;
   line-height: $line-height;
+  background-image: url("./../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 img {
@@ -29,4 +33,10 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
